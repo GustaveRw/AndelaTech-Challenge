@@ -1,0 +1,58 @@
+.page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.container {
+  position: relative;
+  font-family: "Arial", sans-serif;
+  background:#ffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center
+  
+}
+
+h5 {
+  font-family:"Roboto", sans-serif;
+}
+
+.container input {
+  font-family: "Arial", sans-serif;
+  outline: 0;
+  background:#f2f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 20px 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.container button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #006666;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin: 20px 0 0;
+  opacity: 0.5
+}
+.container button:hover,.container button:active,.container button:focus {
+  background: #333300;
+}
+.container .result {
+  margin: 50px 0 0;
+  color: #000000;
+  font-size: 16px;
+}
+body {
+  background:#5c6b33;
+  
+}
